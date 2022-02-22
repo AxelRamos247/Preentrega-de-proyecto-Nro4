@@ -1,0 +1,282 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Arvo', serif;
+    color: #fff;
+
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    background:  url(../imagenes/fondo-formulario2.jfif);
+    background-color: rgba(75, 75, 75, 0.671);
+    background-blend-mode: soft-light;
+    background-position: center ;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+
+}
+
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 5%;
+    height: 15vh;
+}
+
+.banner .nav-list { 
+    margin-left: 60%;
+}
+
+.banner .nav-list li a {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+.banner .nav-list li a:hover {
+    color: rgb(252, 11, 2);
+}
+
+/* Fin de barra de navegacion */
+/* Inicio seccion de productos */
+
+.imagenproductos {
+    position: relative;
+    
+    text-align: center;
+}
+.imagenproductos img{
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.centrado{
+    position: absolute;
+    top: 44%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;
+}
+
+.botoncentrado {
+    position: absolute;
+    top: 60%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    
+}
+.botoncentrado a {
+    color: white;
+    
+}
+
+/* barra de navegacion productos */
+
+
+.lateralnav__bar{
+    background-color: rgb(0, 0, 0); 
+}
+.lateralnav__logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: blue;
+    background: blue;
+    letter-spacing: 1ch;
+    transform: rotate(0deg);
+    transition: transform var(1s);
+}
+.lateralnav__bar:hover .lateralnav__logo {
+    transform: rotate(-360deg);
+}
+.lateralnav__bar:hover {
+    width: 20rem;
+}
+
+.lateralnav__bar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    filter: grayscale(100%) opacity(0.7);
+    transition: 0.5s;
+    color: white;
+}
+
+.lateralnav__bar a:hover {
+    filter: grayscale(0%) opacity(1);
+    background: rgb(35, 2, 97);
+    color: blue;
+}
+
+
+/* fin barra de navegacion productos */
+.seccionproductos__nav {
+    background: blue;
+    width: 100%;
+    height: 100vh;
+}
+
+
+  
+.new {
+    width: 100%;
+    margin-top: 10%;
+    letter-spacing: 1px;
+  }
+  
+  .new h2 {
+    background: black;
+    color: #fff;
+    width: 200px;
+    font-size: 24px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid blue;
+  }
+  
+  .new__products {
+    margin-top: 30px;
+  }
+  
+  .new__products img {
+    width: 100%;
+  }
+  
+  .new__products:hover .new__iconsell {
+    opacity: 1;
+    margin-left: 5%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .new__productsbottoms .fas {
+    color: #fc1515;
+    font-size: 10px;
+  }
+  
+  .new__productsbottoms .far {
+    color: #fc1b1b;
+    font-size: 10px;
+  }
+  
+  .new__productsbottoms h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .new__productsbottoms h5 {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .new__iconsell {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+  }
+  
+  .new__iconsell .fas .far {
+    cursor: pointer;
+    background-color: black;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+  }
+
+  /* Inicio footer */
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    margin-top: 10vh;
+    padding: 50px 100px;
+    background: rgb(5, 5, 5);
+}
+.footer .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer__logoinfo h2 {       
+     color: red;
+}    
+
+
+.social__list{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+}
+.social__list  li{
+        list-style: none;
+}
+.social__list li a{
+    display:inline-block;
+    width: 58px;
+    height: 59px;
+    background-color: rgb(24, 8, 116);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.social__list li a:hover {
+    background: white;
+}
+.social__list li .fab {
+    color: rgb(231, 3, 3);
+    font-size: 20px;
+ }
+.recursos__menu {
+    position: relative;
+}
+.recursos__menu   li {
+    list-style: none;
+}
+.recursos__menu   li a {
+    color: red;
+}
+.recursos__menu   li a:hover {
+    background: white;
+}
+    
+.copyright {
+    width: 100%;
+    background: blue; 
+    padding: 8px 100px;
+    text-align: center;
+    color: white;
+}
+
+/* mediaqueries */
+@media (min-width:1200px) {
+   
+}

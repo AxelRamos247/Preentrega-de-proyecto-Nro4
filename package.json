@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "name": "preentrega-proyecto-final-nro4",
+  "version": "1.0.0",
+  "description": "Entrega de proyecto coderhouse",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "node-sass --include-path scss estilos/index.scss estilos/index.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Preentrega",
+    "nr4"
+  ],
+  "author": "Axel Ramos",
+  "license": "ISC"
+}

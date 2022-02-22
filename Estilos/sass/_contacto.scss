@@ -1,0 +1,252 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Arvo', serif;
+    color: #fff;
+
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    background:  url(../imagenes/fondo-formulario2.jfif);
+    background-color: rgba(75, 75, 75, 0.671);
+    background-blend-mode: soft-light;
+    background-position: center ;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.nav-list4 { 
+    margin-left: 60%;
+}
+
+.nav-list4 {
+    li a {
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+    }
+    a:hover {
+        color: rgb(252, 11, 2);
+    }
+}
+
+/* Contacto */
+
+#contact .contact-info {
+    margin-top: 7%;
+    padding-left: 5%;
+
+}
+
+#contact-form {
+    margin-top: 8%;
+    textarea {
+        width: 60em;
+        height: 10em;
+    }
+    input {
+        background: transparent;
+        border: 1px solid rgb(70, 6, 66);
+        height: 40px;
+        color: white;
+    }
+    input::placeholder {
+        color: #ddd;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-size: 0,89em;
+    }
+    button {
+        color: rgb(252, 250, 252);
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 22px;
+        letter-spacing: 2px;
+        
+    }
+
+}
+
+#contact {
+    .contact-info {
+        h1 {
+            border-left: 5px solid rgba(255, 2, 2, 0.541);
+            margin-bottom: 40px;
+        }
+        .contact-icon {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10%;
+            font-size: 1.6em;
+            .contact-item {
+                position: relative;
+                margin-bottom: 40px;
+            }
+            li {
+                list-style: none;
+                a{
+                    padding: 20px;
+                    font-size: 0.6em;
+                }
+            }
+            a {
+                color: white;
+            }
+            a:hover {
+                color: red;
+            } 
+           
+        }
+        
+    }
+}
+
+#contact .contact-info .contact-icon .maps {
+    width: 220px;
+    height: 160px;
+}
+
+/* Inicio footer */
+
+
+.footer4 {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    padding: 50px 100px;
+    background: rgb(5, 5, 5);
+    
+}
+.footer__container4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__logoinfo4 h2 {       
+     color: red;
+}    
+
+
+.social__list4{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+    li{
+        list-style: none;
+    }
+    a{
+        display:inline-block;
+        width: 58px;
+        height: 59px;
+        background-color: rgb(24, 8, 116);
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    a:hover {
+        background: white;
+    }
+    .fab {
+        color: rgb(231, 3, 3);
+        font-size: 20px;
+     }
+}
+
+.recursos__menu4 {
+    position: relative;
+    li {
+        list-style: none;
+    }
+    a {
+        color: red;
+    }
+    a:hover {
+        background: white;
+    }
+}
+
+.copyright {
+    width: 100%;
+    background: blue;
+    padding: 8px 100px;
+    text-align: center;
+    color: white;
+}
+
+
+
+@media (max-width:350px) {
+    #contact-form textarea {
+        width: 85vw;
+        height: 10em;
+    }
+
+
+    .banner .nav-list4 { 
+        margin-left: 40%;
+    }
+
+    .footer__container4 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer4 {
+        height: 120vh;
+        padding: 40px 40px;
+    }
+
+    
+    
+}
+
+@media (max-width:576px) {
+    #contact-form textarea {
+        width: 91vw;
+        height: 10em;
+    }
+    .nav-list4 { 
+        margin-left: 40%;
+    } 
+
+    .footer__container4 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer4 {
+        height: 120vh;
+        padding: 40px 40px;
+    }
+
+    
+
+}
+
+@media (max-width: 1200px)  {
+    #contact-form textarea {
+        width: 63vw;
+        height: 13em;
+    }
+    .nav-list4 { 
+        margin-left: 40%;
+    }
+
+
+}
+
+

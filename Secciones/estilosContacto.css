@@ -1,0 +1,230 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Arvo', serif;
+    color: #fff;
+
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    background:  url(../imagenes/fondo-formulario2.jfif);
+    background-color: rgba(75, 75, 75, 0.671);
+    background-blend-mode: soft-light;
+    background-position: center ;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.banner .nav-list { 
+    margin-left: 60%;
+}
+
+.banner .nav-list li a {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+.banner .nav-list li a:hover {
+    color: rgb(252, 11, 2);
+}
+
+
+
+/* Contacto */
+
+
+
+#contact .contact-info {
+    margin-top: 7%;
+    padding-left: 5%;
+
+}
+
+#contact-form {
+    margin-top: 8%;
+
+}
+#contact-form textarea {
+    width: 30em;
+    height: 10em;
+}
+
+#contact-form input {
+    background: transparent;
+    border: 1px solid rgb(70, 6, 66);
+    height: 40px;
+    color: white;
+}
+
+#contact-form input::placeholder {
+    color: #ddd;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 0,89em;
+}
+
+#contact-form button {
+    color: rgb(252, 250, 252);
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    
+}
+
+
+#contact .contact-info h1 {
+    border-left: 5px solid rgba(255, 2, 2, 0.541);
+    margin-bottom: 40px;
+}
+
+#contact .contact-info .contact-icon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 1.6em;
+   
+}
+
+#contact .contact-info .contact-icon .contact-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#contact .contact-info .contact-icon li {
+    list-style: none;
+}
+
+
+#contact .contact-info .contact-icon li a{
+    padding: 20px;
+    font-size: 0.6em;
+}
+
+#contact .contact-info .contact-icon a {
+    color: white;
+}
+
+
+#contact .contact-info .contact-icon a:hover {
+    color: red;
+} 
+
+#contact .contact-info .contact-icon .maps {
+    width: 220px;
+    height: 160px;
+}
+
+/* Inicio footer */
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    margin-top: 10vh;
+    padding: 50px 100px;
+    background: rgb(5, 5, 5);
+}
+.footer .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer__logoinfo h2 {       
+     color: red;
+}    
+
+
+.social__list{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+}
+.social__list  li{
+        list-style: none;
+}
+.social__list li a{
+    display:inline-block;
+    width: 58px;
+    height: 59px;
+    background-color: rgb(24, 8, 116);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.social__list li a:hover {
+    background: white;
+}
+.social__list li .fab {
+    color: rgb(231, 3, 3);
+    font-size: 20px;
+ }
+.recursos__menu {
+    position: relative;
+}
+.recursos__menu   li {
+    list-style: none;
+}
+.recursos__menu   li a {
+    color: red;
+}
+.recursos__menu   li a:hover {
+    background: white;
+}
+    
+.copyright {
+    width: 100%;
+    background: blue;
+    padding: 8px 100px;
+    text-align: center;
+    color: white;
+}
+
+
+
+@media (min-width:350px) {
+    #contact-form textarea {
+        width: 18em;
+        height: 10em;
+    }
+
+    .banner .nav-list { 
+        margin-left: 40%;
+    }
+}
+
+@media (min-width:576px) {
+    #contact-form textarea {
+        width: 33em;
+        height: 10em;
+    }
+    .banner .nav-list { 
+        margin-left: 40%;
+    }
+}
+
+@media (min-width:1200px) {
+    #contact-form textarea {
+        width: 50em;
+        height: 13em;
+    }
+    .banner .nav-list { 
+        margin-left: 60%;
+    }
+}
+
+

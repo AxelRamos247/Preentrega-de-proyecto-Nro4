@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Arvo', serif;
+    color: #fff;
+
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    background:  url(../imagenes/fondo-formulario2.jfif);
+    background-color: rgba(75, 75, 75, 0.671);
+    background-blend-mode: soft-light;
+    background-position: center ;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 5%;
+    height: 15vh;
+}
+
+.banner .nav-list { 
+    margin-left: 60%;
+}
+
+.banner .nav-list li a {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+.banner .nav-list li a:hover {
+    color: rgb(252, 11, 2);
+}
+
+/* inicio seccion nosotros */
+
+.aboutus img{
+    width: 215vh;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nosotros--container {
+    margin-top: 10vh;
+}
+
+.nosotros__titulo1, .nosotros__titulo2, .nosotros__titulo3{
+    font-family: 'Gideon Roman';
+    letter-spacing: 3px;
+}
+
+.imagen1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen1 img{
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.imagen2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen2 img{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.products {
+    margin-top: 10vh;
+    border-top: 2px solid rgba(40, 3, 255, 0.993);
+}
+
+.products .products__titulo1 {
+    font-family: 'Gideon Roman';
+    letter-spacing: 3px;
+    margin-top:  10vh;
+
+}
+
+
+/* Fin de seccion nosotros */
+/* Inicio footer */
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    margin-top: 10vh;
+    padding: 50px 100px;
+    background: rgb(5, 5, 5);
+}
+.footer .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer__logoinfo h2 {       
+     color: red;
+}    
+
+
+.social__list{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+}
+.social__list  li{
+        list-style: none;
+}
+.social__list li a{
+    display:inline-block;
+    width: 58px;
+    height: 59px;
+    background-color: rgb(24, 8, 116);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.social__list li a:hover {
+    background: white;
+}
+.social__list li .fab {
+    color: rgb(231, 3, 3);
+    font-size: 20px;
+ }
+.recursos__menu {
+    position: relative;
+}
+.recursos__menu   li {
+    list-style: none;
+}
+.recursos__menu   li a {
+    color: red;
+}
+.recursos__menu   li a:hover {
+    background: white;
+}
+    
+.copyright {
+    width: 100%;
+    background: blue; 
+    padding: 8px 100px;
+    text-align: center;
+    color: white;
+}
+
+
+
